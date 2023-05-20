@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height:100vh;
+    background-image: linear-gradient( to right top, white,pink,yellow );
+}
+
+header{
+    text-align: center;
+    padding:0px 60px;
+    border-bottom:1px solid grey;
+}
+
+header h1{
+    font-weight:bold;
+    font-size: 2rem;
+}
+
+.main{
+    padding: 0 60px;
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todo{
+    display:flex;
+    align-items: center;
+    border-bottom: 2px solid grey;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    width: 60vw;
+}
+
+.cut{
+    text-decoration:line-through;
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+
+.main h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
